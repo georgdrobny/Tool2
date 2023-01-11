@@ -1,2 +1,3 @@
-Write-Output "Test1"
-Get-Service -Name BITS
+Param([string]$ServiceName='BiTS')
+Get-Service -Name $ServiceName
+
